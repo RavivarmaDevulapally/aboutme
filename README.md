@@ -9,12 +9,18 @@
 ## About
 This page provides links to my repositories and also give you some knowledge on the rquirements for using Github and publish your repositories
 
-##Recommended Tools
+## Recommended Tools
 For using Github and publish your repo you need to 
 1. Signup to Github [Github] (https://github.com/)
 1. Create a new repository in Github
-1. Notepad++ is a simple text editor which helps you to write and modify your source code. You can download it from the below link
+1. Notepad++ is a simple text editor which helps you to write and modify your source code. You can download it from here:  link
 	[Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html)
 1. Appveyor helps you to run your tests on windows and deploy your web application to cloud with ease. 
 	[Appveyor](https://github.com/marketplace/appveyor)
-	  
+
+## Recommended Resources
+1. Guide to Github [Guide Link](https://guides.github.com/)
+1. Video for Beginners 
+	[Quick Start to Github](https://resources.github.com/webcasts/Quick-start-guide-to-GitHub)
+1. jQuery is a fast javascript library useful to develop web applications with HTML  
+	[jQuery](https://jquery.com/) 	  
