@@ -7,10 +7,10 @@
 - [WebPage](https://ravivarmadevulapally.github.io/aboutme)
 
 ## About
-This page provides links to my repositories and also give you some knowledge on the rquirements for using Github and publish your repositories
+This page provides links to my repositories and also give you some knowledge on the requirements for using Github and publish your repositories
 
 ## Recommended Tools
-For using Github and publish your repo you need to 
+For using Github and publish your repo here are some instructions and recommended tools 
 1. Signup to Github [Github](https://github.com/)
 1. Create a new repository in Github
 1. Notepad++ is a simple text editor which helps you to write and modify your source code. You can download it from here:
