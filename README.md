@@ -1,5 +1,6 @@
 # aboutme
-## My Profile
-- I am Rajender Ravi Varma Devulapally
-- I prefer to be called as Ravi Varma Devulapally
-- I am from Warangal, Telangana State, India 
+
+## My Repository Links and Webpage
+- [GitHub Profile](https://github.com/RavivarmaDevulapally)
+- [BitBucket Profile](https://bitbucket.org/ravivarmadevulapally)
+- [WebPage](https://ravivarmadevulapally.github.io/aboutme)
