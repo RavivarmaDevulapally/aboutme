@@ -9,7 +9,8 @@
   <!-- Link to CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
-
+    
+    <script src="myself.js"></script> 
   <link rel="stylesheet" href="index.css">
 
   <title>Palindrome Checker</title>
@@ -33,44 +34,36 @@
                         <li class="nav-item">
                           <a class="nav-link" href="myself.html">Calculator</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="qunit.html">Qunit</a>
+                        </li>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="go">Search</button>
                           </form>
                         </ul>
                     </div>
                   </nav>
-               
+                  <h1 class="h1-responsive font-weight-bold text-center my-4">PALINDROME</h1>
+                  <h2 class="h2-responsive font-weight-bold text-center my-4">
+                        <section class="col-md-8">
+                      
+                
+                            <form >
+                    Enter a String/Number: <input type="text" id="str" name="string" /><br />
+                    <input type="button" value="GO" onclick="checkPalindrome();"/>
+                    <p id="result"></p>
+                  </script>  
+                  </form>
+                    </section>
+                  </h2>
+                  <br>
+                  <footer CLASS="main footer">
+                
+                        &copy; 2019 Ravi Varma
+                
+                    </footer>             
+                   
 </body>
-  <h1 class="h1-responsive font-weight-bold text-center my-4">PALINDROME</h1>
-  <h2 class="h2-responsive font-weight-bold text-center my-4">
-        <section class="col-md-8">
-        <script type="text/javascript">
-            function checkPalindrome() {
-            var revStr = "";
-            var str = document.getElementById("str").value;
-            var i = str.length;
-            for(var j=i; j>=0; j--) {
-            revStr = revStr+str.charAt(j);
-            }
-            if(str == revStr) {
-            alert(str+" -is Palindrome");
-            } else {
-            alert(str+" -is not a Palindrome");
-            }
-            }
-            </script>
-
-            <form >
-    Enter a String/Number: <input type="text" id="str" name="string" /><br />
-    <input type="submit" value="GO" onclick="checkPalindrome();"/>
-    </form>
-    </section>
-  </h2>
-  <br>
-  <footer CLASS="main footer">
-
-        &copy; 2019 Ravi Varma
-
-    </footer>
+  
   </html>
