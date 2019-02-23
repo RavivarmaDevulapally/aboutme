@@ -21,3 +21,14 @@ let getpalin = function (str, revStr) {
        return ' ';
       }
 }
+
+function OverMouse() {
+  const xhttp = new XMLHttpRequest();
+  $.ajax({
+    type: 'GET',
+    url: 'https://thesimpsonsquoteapi.glitch.me/quotes?count=3',
+    success: function (data) {
+      $("#mouseOverme").html(data[1].quote);
+    }
+  });
+}
