@@ -18,8 +18,8 @@ let getpalin = function (str, revStr) {
         //alert(str+" -is Palindrome");
       } 
       else {
-       alert(str+" -is not a Palindrome");
-       return ' ';
+      // alert(str+" -is not a Palindrome");
+       return 'is not a Palindrome ';
       }
 }
 
